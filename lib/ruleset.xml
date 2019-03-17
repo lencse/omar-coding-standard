@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<ruleset
+        name="Omar"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="vendor/squizlabs/php_codesniffer/phpcs.xsd"
+>
+    <description>OmarPHP coding standard</description>
+
+    <rule ref="Doctrine">
+        <exclude name="Generic.Formatting.MultipleStatementAlignment" />
+    </rule>
+
+    <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes">
+        <properties>
+            <property
+                    name="newlinesCountBetweenOpenTagAndDeclare"
+                    value="0"
+            />
+            <property
+                    name="spacesCountAroundEqualsSign"
+                    value="0"
+            />
+            <property
+                    name="newlinesCountAfterDeclare"
+                    value="2"
+            />
+        </properties>
+    </rule>
+
+    <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing">
+        <properties>
+            <property name="spacesCountBeforeColon" value="0" />
+        </properties>
+    </rule>
+
+</ruleset>
