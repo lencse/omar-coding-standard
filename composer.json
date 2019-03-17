@@ -1,0 +1,13 @@
+{
+    "name": "lencse/omar-coding-standard",
+    "description": "OmarPHP coding standard",
+    "type": "phpcodesniffer-standard",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Levente Löki",
+            "email": "leventeloki@gmail.com"
+        }
+    ],
+    "require": {}
+}
